@@ -1,0 +1,36 @@
+div {
+    border: 1px #333 solid;
+}
+
+
+section {
+    background-color: lightgrey;
+    padding: 80px 40px; 
+
+}
+
+/* img {
+    width: 100%;
+} */
+
+
+.card {
+    width: 250px;
+}
+
+.img-card {
+    width: 100%
+}
+
+.img-feat {
+    width: 80px;
+    height: 80px;
+}
+
+#hero {
+    background-image: url("../img/test\ 4.jfif");
+    background-size: cover;
+    height: 20vh;
+    text-align: center;
+
+}
