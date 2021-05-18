@@ -5,6 +5,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Krona One', sans-serif;
+    margin: 10px 0;
 }
 
 h1 {
@@ -40,7 +41,7 @@ div {
 }
 
 section {
-    background-color: lightgrey;
+    background-color: white;
     padding: 80px 40px; 
 
 }
@@ -49,6 +50,10 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 36px;
+}
+
+footer {
+    justify-content: space-evenly;
 }
 
 img {
@@ -71,9 +76,9 @@ a:active {
 /* CTA Button */
 a.cta-button:link, a.cta-button:visited {
     background-color: orangered;
-    border-radius: 16px 24px;
+    border-radius: 8px;
     color: whitesmoke;
-    padding: 8px 16px;
+    padding: 16px 24px;
 }
 
 a.cta-button:hover {
@@ -86,9 +91,9 @@ a.cta-button:active {
 /* CV Download Button */
 a.cv-button:link, a.cv-button:visited {
     background-color: orangered;
-    border-radius: 16px 24px;
+    border-radius: 8px;
     color: whitesmoke;
-    padding: 8px 16px;
+    padding: 16px 24px;
 }
 a.cv-button:hover {
     background-color: tomato;
@@ -130,9 +135,26 @@ a.cv-button:active {
     margin-right: 8px;
 } 
 
+#feat-card { 
+
+}
+
 #hero {
     background-image: url("../img/test\ 4.jfif");
     background-size: cover;
-    height: 40vh;
+    height: 30vh;
     text-align: center;
+}
+
+#hero div{
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
+}
+
+#contact { 
+    justify-content: space-around;
+    background-color: wheat;
 }
